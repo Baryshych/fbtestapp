@@ -1,0 +1,11 @@
+<div class='row'>
+    <div class='col-md-12'>
+        <table class="table">
+        <%= @friends.each do |f| %>
+            <tr><%= image_tag f['picture']['data']['url'].to_s %><tr>
+            <tr><%= f['name'] %></tr>
+        <% end %>
+        </table>
+    </div>
+    </div>
+</div>

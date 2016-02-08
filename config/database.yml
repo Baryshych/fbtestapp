@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: fb
+  pool: 5
+  username: simpleuser
+  password: 12345
+  host: localhost
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: fb
+  pool: 5
+  username: simpleuser
+  password: 12345
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: fb
+  pool: 5
+  username: simpleuser
+  password: 12345
