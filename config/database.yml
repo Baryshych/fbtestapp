@@ -6,7 +6,7 @@ development:
   username: simpleuser
   password: 12345
   host: localhost
-test: &TEST
+test: 
   adapter: postgresql
   encoding: utf8
   database: fb

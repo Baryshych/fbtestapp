@@ -58,5 +58,4 @@ Rails.application.routes.draw do
   get 'auth/facebook', as: "auth_provider"
   get 'auth/facebook/callback', to: 'users#login'
   get '/friends', to: 'users#showFriends'
-  post '/friends', to: 'users#showFriends'
 end
