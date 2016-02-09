@@ -31,7 +31,7 @@ gem "koala", "~> 1.10.0rc"
 gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'whenever', :require => false
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
